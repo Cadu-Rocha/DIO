@@ -4,23 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Carlos Rocha</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Carlos Rocha</h1>
-        <img src="Avatar.jpg" alt="Avatar de personagem" height="800" width="800">
+        <img src="Avatar.jpg" alt="Avatar de personagem" height="200" width="200" class="photo">
+        <h1 id="title">Carlos Rocha</h1>
     </header>
     <section>
         <header></header>
-            <h2>Posts</h2>
+            <h2 class="subtitle">Posts</h2>
         </header>
-        <article>
+        <article class="post">
             <header>
-                <h3>Post #1</h3>
-                <img src="D20.jpg" alt="Dado de 20 faces" height="666" width="1000">
+                <h3 class="post_title">Post #1</h3>
+                <img src="D20.jpg" alt="Dado de 20 faces" height="333" width="500" class="post_image">
             </header>
-            <p>
+            <p class="post_content">
                 Lorem ipsum dolor sit amet, <a href="https://www.google.com.br" target="_blank">consectetur adipiscing</a> elit. Quisque suscipit urna tortor, non rhoncus nisi
                 tincidunt at. Pellentesque ante felis, tempus et consectetur nec, ultricies eget felis. Integer finibus
                 sapien non lectus pulvinar, dignissim lobortis enim fermentum. Quisque luctus dui sit amet ante
@@ -35,22 +36,22 @@
         </article>
     </section>
     <footer>
-        <ul>
+        <ul class="contact_list"> <!-- Lista não ordenada-->
             <li>
-                <a href="mailto:carlosezrocha@gmail.com">carlosezrocha@gmail.com</a>
+                <a href="mailto:carlosezrocha@gmail.com">Mande um email para: carlosezrocha@gmail.com</a>
             </li>
             <li>
                 <a href="http://www.linkedin.com/in/carlosezrocha" target="_blank">Linkedin</a>
             </li>
         </ul>
-        <ol>
+        <!-- <ol> (lista ordenada)
             <li>
                 <a href="mailto:carlosezrocha@gmail.com">carlosezrocha@gmail.com</a>
             </li>
             <li>
                 <a href="http://www.linkedin.com/in/carlosezrocha" target="_blank">Linkedin</a>
             </li>
-        </ol>
+        </ol><--> <!-- Simbolo para comentário em HTML-->
     </footer>
 </body>
 

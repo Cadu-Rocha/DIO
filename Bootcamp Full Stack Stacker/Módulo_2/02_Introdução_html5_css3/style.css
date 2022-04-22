@@ -1,0 +1,64 @@
+.photo{ /* classes sao listadas através de PONTO .nome*/
+    border: 5px solid #fff ; /* altera comando de borda */
+    border-radius: 50%; /* arrendoda canto*/
+}
+
+body {
+    background: #f7f7f7; /* Define cor de background*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define família de fontes, no caso de não haver a primeira o CSS tenta a próxima listada */
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050 /* altera cor do objeto*/
+}
+
+#title { /*id são listados através de #nome*/
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post {
+    background: #fff;
+    padding: 10px;
+    border: solid #505050;
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    /*text-transform: capitalize;*/
+}
+
+.post_image{
+    margin:0;
+    margin-bottom: 15px;
+    
+    
+}
+
+.contact_list{
+    list-style-type: square; /* para manter padrão de lista e nao ter marcadores usar NONE*/
+    color: blue;
+}
+
+.contact_list li a {
+    text-decoration: none;
+    color: blue;
+}
